@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ErrorOr" Version="0.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Inventory.Contracts\InventoryAPI.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ErrorOr">
+      <HintPath>..\..\..\Users\zhang\source\repos\error-or\src\bin\Debug\net60\ErrorOr.dll</HintPath>
+    </Reference>
+    <Reference Include="Inventory.Contracts">
+      <HintPath>..\Inventory.Contracts\bin\Debug\net6.0\Inventory.Contracts.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

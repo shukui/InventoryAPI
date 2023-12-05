@@ -1,0 +1,3 @@
+@id=2239abee-80a6-4874-9600-a26b86e542e5
+
+GET https://localhost:7094/Inventory/{{id}}

@@ -1,0 +1,23 @@
+POST http://localhost:5286/Inventory
+Content-Type: application/json
+
+{
+    "name": "My Breakfast",
+    "description": "Breakfast description must be at least 50 characters long and at most 150 characters long.",
+    "startDateTime": "2022-04-08T08:00:00",
+    "endDateTime": "2022-04-08T11:00:00",
+    "savory": [
+        "Oatmeal",
+        "Avocado Toast",
+        "Omelette",
+        "Salad"
+    ],
+    "Sweet": [
+        "Cookie"
+    ]
+}
+
+###
+
+@id = e6955c36-a7f3-4da0-bbbd-56b61fd9ac7d
+GET https://localhost:7094/Inventory/{{id}}
